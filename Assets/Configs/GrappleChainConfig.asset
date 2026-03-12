@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9e29c5e28f5c74ab437a949e3dd0dc, type: 3}
+  m_Name: GrappleChainConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GrappleChainConfig
+  maxLinkCount: 10
+  linkSpacing: 0.15
+  linkMass: 0.05
+  linkDrag: 2
+  linkAngularDrag: 5
+  solverIterations: 16
+  solverVelocityIterations: 8
+  angularDamper: 10
+  linkRadius: 0.02
